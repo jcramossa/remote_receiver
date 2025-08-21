@@ -2,8 +2,8 @@
 #include "esphome/core/log.h"
 
 #ifdef USE_ESP32
-#include <driver/rmt_tx.h>
-#include <driver/rmt_rx.h>
+#include <driver/rmt.h>
+
 
 namespace esphome {
 namespace remote_receiver {
